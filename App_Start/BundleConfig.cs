@@ -1,5 +1,4 @@
-﻿using System.Web;
-using System.Web.Optimization;
+﻿using System.Web.Optimization;
 
 namespace videly {
     public class BundleConfig {
@@ -20,7 +19,7 @@ namespace videly {
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css" ,
+                      "~/Content/bootstrap-superheros.css" ,
                       "~/Content/site.css"));
             }
         }
