@@ -19,7 +19,7 @@ namespace videly {
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap-superheros.css" ,
+                      "~/Content/bootstrap.css" ,
                       "~/Content/site.css"));
             }
         }
